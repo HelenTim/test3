@@ -1,0 +1,574 @@
+@charset 'UTF-8';
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-25 19:11:29
+ * @version $Id$
+ */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    font: 14px Arial,'Microsoft Yahei';
+
+    background: #fff;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.container
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+.container .log_begin
+{
+    display: inline-block;
+
+    width: 152px;
+    height: 27px;
+    margin: 11px 0 0;
+
+    background: url(images/iconlist_1.png) no-repeat -871px -100px;
+}
+ul.right li{
+    height:50px;
+    line-height:50px;
+    float:left;
+}
+ul.right li a{ 
+    color:#5c5c5c;
+    padding:0px 1em;
+    margin:1px 0px;
+}
+ul.right li:hover{
+    border-bottom:2px solid #f05157;
+}
+ul.right  li{
+    height:50px;
+    line-height:50px;
+} 
+.navbar div.right{
+    margin-top:12px;
+}
+div.right ul li:first-child{
+    padding:0px 1em;
+}
+div.right ul li a.android{
+    display:inline-block;
+    width:86px;
+    height:26px;
+    background:url(images/iconlist_2.png) no-repeat -430px -671px;
+}
+div.right ul li a.android:hover{
+    background-position:-1655px -509px;
+}
+div.right ul li a.expecting{
+    display:inline-block;
+    width:86px;
+    height:26px;
+    background:url(images/iconlist_2.png) no-repeat -1656px -537px;
+}
+.container:before
+{
+    display: table;
+
+    content: ' ';
+}
+.container:after
+{
+    display: table;
+    clear: both;
+
+    content: ' ';
+}
+.navbar
+{
+    height: 50px;
+    background: #fff;
+}
+.banner
+{
+    height: 700px;
+    border: 1px solid #aaa;
+    background: #fff url(images/bg_1.jpg) no-repeat 50% 50%;
+}
+.banner h3
+{
+    width: 455px;
+    height: 55px;
+    margin: 135px auto 0;
+
+    background: url(images/iconlist_1.png) no-repeat -870px 0;
+}
+.banner p
+{
+    width: 412px;
+    height: 20px;
+    margin: 30px auto 0;
+
+    background: url(images/iconlist_1.png) no-repeat -890px -80px;
+}
+.banner .pie_list
+{
+    position: relative;
+    top: 85px;
+    left: 160px;
+}
+.banner .pie
+{
+    position: absolute;
+}
+.banner .pie i
+{
+    display: block;
+
+    width: 173px;
+    height: 173px;
+
+    background: url(images/iconlist_1.png) no-repeat;
+}
+.banner .pie b
+{
+    display: block;
+
+    width: 173px;
+    height: 20px;
+    margin-top: -5px;
+
+    background: url(images/iconlist_1.png) no-repeat -864px -130px;
+}
+.banner .p1
+{
+    z-index: 1;
+    left: 0;
+
+    -webkit-animation: p1Anim 1000ms linear;
+       -moz-animation: p1Anim 1000ms linear;
+            animation: p1Anim 1000ms linear;
+}
+.banner .p1 i
+{
+    background-position: 0 0;
+}
+@-webkit-keyframes p1Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 0;
+    }
+}
+@-moz-keyframes p1Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 0;
+    }
+}
+.banner .p2
+{
+    z-index: 2;
+    left: 153px;
+
+    -webkit-animation: p2Anim 1207ms linear;
+       -moz-animation: p2Anim 1207ms linear;
+            animation: p2Anim 1207ms linear;
+}
+.banner .p2 i
+{
+    background-position: -174px 0;
+}
+@-webkit-keyframes p2Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 153px;
+    }
+}
+@-moz-keyframes p2Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 153px;
+    }
+}
+.banner .p3
+{
+    z-index: 3;
+    left: 306px;
+
+    -webkit-animation: p3Anim 1414ms linear;
+       -moz-animation: p3Anim 1414ms linear;
+            animation: p3Anim 1414ms linear;
+}
+.banner .p3 i
+{
+    background-position: -348px 0;
+}
+@-webkit-keyframes p3Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 306px;
+    }
+}
+@-moz-keyframes p3Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 306px;
+    }
+}
+.banner .p4
+{
+    z-index: 4;
+    left: 459px;
+
+    -webkit-animation: p4Anim 1620ms linear;
+       -moz-animation: p4Anim 1620ms linear;
+            animation: p4Anim 1620ms linear;
+}
+.banner .p4 i
+{
+    background-position: -522px 0;
+}
+@-webkit-keyframes p4Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 459px;
+    }
+}
+@-moz-keyframes p4Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 459px;
+    }
+}
+.banner .p5
+{
+    z-index: 5;
+    left: 612px;
+
+    -webkit-animation: p5Anim 1827ms linear;
+       -moz-animation: p5Anim 1827ms linear;
+            animation: p5Anim 1827ms linear;
+}
+.banner .p5 i
+{
+    -webkit-animation: p5scroll 1827ms linear;
+       -moz-animation: p5scroll 1827ms linear;
+            animation: p5scroll 1827ms linear;
+
+    background-position: -696px 0;
+}
+@-webkit-keyframes p5Anim
+{
+    0%
+    {
+        left: -740px;
+
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        left: 612px;
+
+        transform: rotate(1080deg);
+    }
+}
+@-moz-keyframes p5Anim
+{
+    0%
+    {
+        left: -740px;
+    }
+    100%
+    {
+        left: 612px;
+    }
+}
+@-webkit-keyframes p5scroll
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(1080deg);
+    }
+}
+@-moz-keyframes p5scroll
+{
+    0%
+    {
+        left: -740px;
+
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        left: 612px;
+
+        transform: rotate(1080deg);
+    }
+}
+.reminder
+{
+    height: 700px;
+
+    border: 1px solid #aaa;
+    background: #fff;
+}
+.reminder .container .inner{
+    padding:103px 0 0 0;
+}
+.reminder .rd{
+    background:url(images/iconlist_2.png) no-repeat;
+}
+.reminder .hd_reminder{
+    width:361px;
+    height:39px;
+    margin:0 auto;
+    background-position:-593px -657px;
+}
+.reminder .explain_reminder{
+    width:903px;
+    height:52px;
+    margin:33px auto 48px;
+    background-position:-1444px -590px;
+}
+.reminder .pic_reminder{
+    width:640px;
+    height:298px;
+    margin:0px auto;
+    background-position:-1656px 0px;
+}
+.call
+{
+    height: 700px;
+
+    border: 1px solid #aaa;
+    background: #fff url(images/bg_2.jpg) no-repeat 50% 50%;
+}
+.call .desc
+{
+    float: left;
+
+    width: 520px;
+    height: 525px;
+    margin-top: 100px;
+
+    background: url(images/iconlist_2.png) no-repeat 0 0;
+}
+.call .phone
+{
+    float: left;
+
+    width: 250px;
+    height: 530px;
+    margin: 100px 0 0 50px;
+
+    background: url(images/iconlist_2.png) no-repeat -568px -1px;
+
+    transtion: all .5px linear;
+}
+.call .phone:hover
+{
+    transform: rotate(25deg);
+}
+.smart
+{
+    height: 740px;
+
+    border: 1px solid #aaa;
+    background: #fff url(images/bg_3.jpg) no-repeat 50% 50%;
+}
+.location
+{
+    height: 700px;
+
+    border: 1px solid #aaa;
+    background: #fff url(images/bg_4.jpg) no-repeat 50% 50%;
+}
+.location .right{
+    width:748px;
+    height:536px;
+    margin-top:100px;
+    background:url(images/iconlist_2.png) no-repeat -903px 0px;
+}
+.icon_list
+{
+    height: 600px;
+
+    border: 1px solid #aaa;
+    background: #fff;
+}
+.icon_list ul{
+    width:33%;
+    overflow:hidden;
+}
+.icon_list ul li{
+    float:left;
+}
+.icon_list ul li.left{
+    width:250px;
+    margin-left:10px;
+}
+.icon_list ul li h1{
+    font-weight:500; 
+    font-size:180%; 
+}
+.icon_list ul li h1.call2{
+    color:#FAD040;
+}
+.icon_list ul li p{
+    font-size:16px;
+    color:#a3a3a3;
+    line-height:23px;
+}
+.icon_list .icon
+{
+    display: block;
+
+    width: 80px;
+    height: 80px;
+
+    background: url(images/iconlist_3.png) no-repeat;
+}
+.icon_list .icon:hover
+{
+    -webkit-animation: shine .4s linear infinite;
+       -moz-animation: shine .4s linear infinite;
+            animation: shine .4s linear infinite;
+}
+@-webkit-keyframes shine
+{
+    0%
+    {
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+    25%
+    {
+        transform: rotate(15deg);
+
+        opacity: .5;
+    }
+    50%
+    {
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+    75%
+    {
+        transform: rotate(-15deg);
+
+        opacity: .5;
+    }
+    100%
+    {
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+}
+@-moz-keyframes shine
+{
+    0%
+    {
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+    25%
+    {
+        transform: rotate(15deg);
+
+        opacity: .5;
+    }
+    50%
+    {
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+    75%
+    {
+        transform: rotate(-15deg);
+
+        opacity: .5;
+    }
+    100%
+    {
+        transform: rotate(0deg);
+
+        opacity: 1;
+    }
+}
+.icon_list span.reminder2{
+    background-position:-85px 0px;
+}
+h1.reminder2{
+    color:#F05157;
+}
+.footer
+{
+    height: 275px;
+
+    border: 1px solid #aaa;
+    background: #545454;
+}
